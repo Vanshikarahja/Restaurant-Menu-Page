@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Restaurant Menu</h1>
+    </header>
+
+    <div class="filter-buttons">
+      <button class="filter-btn" data-category="all">All</button>
+      <button class="filter-btn" data-category="breakfast">Breakfast</button>
+      <button class="filter-btn" data-category="lunch">Lunch</button>
+      <button class="filter-btn" data-category="dinner">Dinner</button>
+    </div>
+
+    <div class="menu-container">
+      <div class="menu-item" data-category="breakfast">
+        <h3>Pancakes</h3>
+        <p>Delicious fluffy pancakes.</p>
+        <span class="price">Rs150.00</span>
+        <button class="add-to-cart" data-name="Pancakes" data-price="150.00">
+          Add to Cart
+        </button>
+      </div>
+      <div class="menu-item" data-category="lunch">
+        <h3>Grilled Sandwich</h3>
+        <p>Cheese and veggie sandwich.</p>
+        <span class="price">Rs100.00</span>
+        <button
+          class="add-to-cart"
+          data-name="Grilled Sandwich"
+          data-price="100.00"
+        >
+          Add to Cart
+        </button>
+      </div>
+      <div class="menu-item" data-category="dinner">
+        <h3>Steak</h3>
+        <p>Juicy grilled steak.</p>
+        <span class="price">Rs230.00</span>
+        <button class="add-to-cart" data-name="Steak" data-price="230.00">
+          Add to Cart
+        </button>
+      </div>
+      <div class="menu-item" data-category="breakfast">
+        <h3>Omelette</h3>
+        <p>Fluffy omelette with veggies.</p>
+        <span class="price">Rs199.00</span>
+        <button class="add-to-cart" data-name="Omelette" data-price="199.00">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <div class="cart-container">
+      <h2>Your Cart</h2>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <h3>Total: Rs<span id="cart-total">0.00</span></h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
