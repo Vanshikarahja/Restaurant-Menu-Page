@@ -6,7 +6,7 @@ The **Restaurant Menu Page** is a dynamic, responsive, and user-friendly webpage
 
 ## 🖼️ Project Preview
 
-![Restaurant Menu Preview](https://raw.githubusercontent.com/Vanshikarahja/Restaurant-Menu-Page/main/3.jpg)
+![Restaurant Menu Preview](https://github.com/Vanshikarahja/Restaurant-Menu-Page/blob/main/menu.png.png?raw=true)
 
 ---
 
